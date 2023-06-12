@@ -1,0 +1,63 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, pink 50%, skyblue 50%);
+    display: inline-flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	background: white;
+	border-bottom: solid 2px black;
+}
+
+#blockLeft {
+	position: absolute;
+	margin-top: 300px;
+  	height: 100px;
+  	width: 100px;
+  	display: inline-block;
+  	text-align: center;
+  	left: 18%;
+}
+#blockRight {
+	position: absolute;
+	margin-top: 300px;
+  	height: 100px;
+  	width: 100px;
+  	display: inline-block;
+  	text-align: center;
+  	left: 68%;
+
+}
+
+#maleWin {
+	margin-left: 70px;
+	position: absolute;
+}
+
+#femaleWin {
+	margin-left: 70px;
+	position: absolute;
+}
+
+#maleButton {
+	font-size: 60px;
+	margin-left: 100px;
+}
+
+#femaleButton {
+	font-size: 60px;
+	margin-left: 90px;
+}
+
+h3 {
+	font-size: 60px;
+}
