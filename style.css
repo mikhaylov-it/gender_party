@@ -1,4 +1,4 @@
-html, body {
+html, body, main {
     width: 100%;
     height: 100%;
     background: linear-gradient(to right, pink 50%, skyblue 50%);
@@ -21,7 +21,7 @@ footer {
 #blockLeft {
 	position: absolute;
 	margin-top: 300px;
-  	height: 100px;
+  	height: 50px;
   	width: 100px;
   	display: inline-block;
   	text-align: center;
@@ -60,4 +60,50 @@ footer {
 
 h3 {
 	font-size: 60px;
+}
+
+@media (max-width: 480px) {
+	main {
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 30%;
+	}
+    #blockLeft, #blockRight {
+        position: static;
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+	html, body {
+		width: 100%;
+		height: 100%;
+		background: linear-gradient(to top, pink 50%, skyblue 50%) no-repeat;
+		display: inline-flex;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+    #blockRight {
+        margin-top: 50px;
+    }
+
+    #maleWin, #femaleWin {
+        margin-left: 25px;
+		width: 30px;
+        position: static;
+    }
+
+    #maleButton, #femaleButton {
+        font-size: 30px;
+        margin: 10px;
+    }
+	
+	h3 {
+	
+		font-size: 30px;
+	}
+
 }
